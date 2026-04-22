@@ -73,7 +73,7 @@ export default function App() {
           <div className="brand-mark">
             <div className="brand-dot"><IconLeaf /></div>
             <div>
-              <div className="brand-name">EcoHome</div>
+              <div className="brand-name">EcoLife</div>
               <div className="brand-sub">Home intelligence</div>
             </div>
           </div>
