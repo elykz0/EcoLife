@@ -5,11 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && cp public/.nojekyll .nojekyll",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build && cp public/.nojekyll dist/.nojekyll",
-    "deploy": "gh-pages -d dist --dotfiles"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.2.5",
